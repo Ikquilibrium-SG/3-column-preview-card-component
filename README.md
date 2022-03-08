@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
-- Live Site URL: [Netlify live site URL](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://ikquilibrium-sg.github.io/3-column-preview-card-component/)
+- Live Site URL: [Netlify live site URL](https://3-column-preview-card-component-75d160.netlify.app/)
 
 ## My process
 
@@ -46,6 +46,6 @@ Flexbox
 ## Author
 
 
-- Frontend Mentor - [@ikquilibrium-SG](https://www.frontendmentor.io/profile/Ikquilibrium-SG)
+- Frontend Mentor - [@Ikquilibrium-SG](https://www.frontendmentor.io/profile/Ikquilibrium-SG)
 
 
