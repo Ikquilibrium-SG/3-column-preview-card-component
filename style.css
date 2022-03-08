@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+}
+
+/* Typography */
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 50px;
+    line-height: 1.8;
+}
+
+
+/* Layout */
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    width: 740px;
+    height: 410px;
+    display: flex;
+    color: hsl(0, 0%, 95%);
+    justify-content: center;
+}
+
+.col-1 {
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+    border-radius: 10px 0 0 10px;
+}
+
+.col-2 {
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+
+.col-3 {
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    border-radius: 0 10px 10px 0;
+}
+
+
+/* Buttons */
+button {
+    padding: 12px 30px 12px 30px;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+}
+
+.btn-1 {
+    color:hsl(31, 77%, 52%);
+}
+
+.btn-2 {
+    color:hsl(184, 100%, 22%);
+}
+
+.btn-3 {
+    color:hsl(179, 100%, 13%)
+}
+
+.btn-1:hover {
+    cursor: pointer;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+
+.btn-2:hover {
+    cursor: pointer;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+
+.btn-3:hover {
+    cursor: pointer;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+}
+
+/* Footer */
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+/* Media query for screen size of 425px and below */
+@media (max-width : 425px) {
+
+    /* Typography */
+    p {
+        font-size: 15px;
+        color: hsla(0, 0%, 100%, 0.75);
+        line-height: 2;
+    }
+
+    /* Layout */
+    .container {
+        height: 40%;
+        margin: 40px 5px 10px;
+    }
+
+    .col {
+        width: 80%;
+        height: 20%;
+        color: hsl(0, 0%, 95%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-1 {
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .col-3 {
+        border-radius: 0 0 10px 10px;
+    }
+
+}
+
